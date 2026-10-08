@@ -1,5 +1,36 @@
 # ForeverLootMover - Changelog
 
+## 1.1
+- **The transmog square really goes now.** It survived 1.0 for two reasons, both
+  found by reading what the client actually has rather than guessing: the roll
+  buttons are not children of the bar but of a container inside it, so the whole
+  little tree has to be walked; and this build names its art by role in an atlas
+  (lootroll-toast-icon-need-up, -greed-up, -transmog-up) where the older ones use
+  the UI-GroupLoot-Dice / Coin / Pass files. Both naming schemes are read now.
+- **Need and greed no longer disappear with it.** Only what is positively
+  recognised as transmog or disenchant is hidden; a roll button whose art says
+  nothing - the pass button here carries a bare file number - is kept. An unknown
+  button left on the bar is better than a missing need or greed.
+- **The test works again.** Its table of items was called ITEMS, which is already
+  a Blizzard global holding a piece of text: the lookup quietly returned nothing
+  and the test raised instead of opening. It also shows every roll button the bar
+  has, so the transmog square can no longer sit on top of a hidden coin.
+- **The "You received" toast lands on the same spot** as the roll bars. It
+  belongs to the game's alert system, so it is handled on its own: the alert
+  subsystems are told to measure from the anchor, and failing that the alert host
+  frame is pinned to it.
+- **Smooth and alive.** A bar is placed in the very frame it is shown, so it no
+  longer flashes at its default spot first, and it fades in. When a roll ends the
+  bars left slide into their new slot instead of snapping.
+- **The addon has its own artwork**, on the minimap button, the options menu, the
+  addon compartment and the addon list.
+- **Options.** The loot toast line reads "Move the loot toast too", and the
+  transmog checkbox is gone: it is always taken off now, which is safe since only
+  a button positively recognised as transmog is ever hidden.
+- **`/flm scan` says more**: every button with the art it wears and the role it
+  was given, plus the state of the alert system. That is what made the two fixes
+  above possible.
+
 ## 1.0
 - **First version.** The group loot roll bars can be put anywhere on the screen,
   at any size between 50 % and 300 %, stacking up or down with the gap you

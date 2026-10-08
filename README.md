@@ -7,7 +7,7 @@
 **Move, resize and stack the group loot roll bars in World of Warcraft: Forever.**
 
 [![GitHub](https://img.shields.io/badge/GitHub-ForeverLootMover-181717?logo=github&logoColor=white)](https://github.com/polarissdv/ForeverLootMover)
-![Version](https://img.shields.io/badge/version-1.0-9966ff)
+![Version](https://img.shields.io/badge/version-1.1-9966ff)
 ![Interface](https://img.shields.io/badge/WoW%3A%20Forever-1.60.x%20(16001)-c8a14a)
 [![Support](https://img.shields.io/badge/Support-TipeeeStream-ff7b00)](https://www.tipeeestream.com/polarzz88/)
 

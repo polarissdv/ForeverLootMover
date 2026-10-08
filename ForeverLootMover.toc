@@ -2,7 +2,7 @@
 ## Title: ForeverLootMover
 ## Notes: Moves the game's own group loot roll bars wherever you want, without changing how they look
 ## Author: Polarz141
-## Version: 1.0
+## Version: 1.1
 ## SavedVariables: ForeverLootMoverDB
 ## IconTexture: Interface\AddOns\ForeverLootMover\Media\icon
 ## AddonCompartmentFunc: ForeverLootMover_OnAddonCompartmentClick
