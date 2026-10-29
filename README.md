@@ -4,12 +4,11 @@
 
 # ForeverLootMover
 
-**Move, resize and stack the group loot roll bars in World of Warcraft: Forever and Classic Era / Hardcore.**
+**Move, resize and stack the group loot roll bars in World of Warcraft: Forever.**
 
 [![GitHub](https://img.shields.io/badge/GitHub-ForeverLootMover-181717?logo=github&logoColor=white)](https://github.com/polarissdv/ForeverLootMover)
 ![Version](https://img.shields.io/badge/version-1.2-9966ff)
 ![Interface](https://img.shields.io/badge/WoW%3A%20Forever-1.60.x%20(16001)-c8a14a)
-![Classic Era](https://img.shields.io/badge/Classic%20Era%20%2F%20Hardcore-1.15.9%20(11509)-c8a14a)
 [![Support](https://img.shields.io/badge/Support-TipeeeStream-ff7b00)](https://www.tipeeestream.com/polarzz88/)
 
 </div>
@@ -79,9 +78,8 @@ Open it from the **minimap button** (right-click) or with **`/flm options`**.
 
 ## Installation
 
-1. Extract the `ForeverLootMover` folder into your `Interface\AddOns` directory:
-   `World of Warcraft\_forever_\Interface\AddOns\ForeverLootMover` for WoW Forever, or
-   `World of Warcraft\_classic_era_\Interface\AddOns\ForeverLootMover` for Classic Era / Hardcore.
+1. Extract the `ForeverLootMover` folder into your WoW Forever `Interface\AddOns` directory:
+   `World of Warcraft\_forever_\Interface\AddOns\ForeverLootMover`
 2. Launch the game. The folder **must** be named `ForeverLootMover`.
 
 ## Controls
@@ -131,9 +129,6 @@ puts them back to their default spot. Nothing is permanently changed.
 ## Compatibility
 
 - **World of Warcraft: Forever** — 1.60.x, Interface `16001`
-- **Classic Era / Hardcore** — 1.15.9, Interface `11509`. New in 1.2. The saving backup above is not
-  needed there: the game keeps its settings, and ForeverLootMover creates no macro. If the bars do
-  not move on your client, type `/flm scan` and send the output.
 - Works alongside any other addon that does not move the loot bars itself. If one does, the two will
   fight over the position — turn one of them off.
 

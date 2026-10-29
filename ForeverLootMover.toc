@@ -1,6 +1,6 @@
-## Interface: 16001, 11509
+## Interface: 16001
 ## Title: ForeverLootMover
-## Notes: Moves the game's own group loot roll bars wherever you want, without changing how they look (WoW Forever and Classic Era / Hardcore)
+## Notes: Moves the game's own group loot roll bars wherever you want, without changing how they look
 ## Author: Polarz141
 ## Version: 1.2
 ## SavedVariables: ForeverLootMoverDB

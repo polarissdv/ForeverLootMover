@@ -1,24 +1,14 @@
 # ForeverLootMover - Changelog
 
 ## 1.2
-- **ForeverLootMover now runs on Classic Era 1.15.9** - Hardcore realms, Season
-  of Discovery - as well as on WoW Forever. One package, whose TOC lists both
-  interfaces (`16001, 11509`). Install it in `_classic_era_\Interface\AddOns`
-  for Classic Era, in `_forever_\Interface\AddOns` for WoW Forever.
-- The bars are still found without calling a single Blizzard function by name:
-  by their frame names, then by walking the container, and the roll buttons are
-  recognised by both naming schemes of their art, the atlas of Forever and the
-  old `UI-GroupLoot` files. If the bars do not move on your client, `/flm scan`
-  lists what it really has: send that output.
-- **No backup copy on Classic Era.** The workaround for the Forever beta
-  saving bug is switched off there: the game keeps its saved variables, so the
-  addon creates no macro and no CVar, and takes none of your macro slots. It
-  only does so on a build it knows to be Classic Era (interface 11xxx); on any
-  other it stays on, which is the safe side of a wrong guess.
-- **The close button of the options menu works on every client.** The strip
-  that lets you drag the menu spans its whole top at the very same frame
-  level as the cross, so on Classic Era it took the click. The cross has its
-  own level above the strip now, and closes the menu itself.
+- **The close button of the options menu has a frame level of its own**, above
+  the strip that lets you drag the menu, and it closes the menu itself instead
+  of relying on the button template. The strip spans the whole top of the menu
+  at the very same level as the cross, so which of the two got the click was up
+  to the client.
+- **The readme names the right folder**: `_forever_`, where the game now lives,
+  instead of the old `_classic_beta_`.
+- Still Interface `16001`, the number the 1.60.1 client reads.
 
 ## 1.1
 - **The transmog square really goes now.** It survived 1.0 for two reasons, both

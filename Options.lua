@@ -134,9 +134,9 @@ tinsert(refreshers, function() subtitle:SetText("v" .. (ns.VERSION or "1.0") .. 
 local closeButton = CreateFrame("Button", nil, panel, "UIPanelCloseButton")
 closeButton:SetPoint("TOPRIGHT", -6, -6)
 -- The header above spans the whole top of the panel, to drag it, at the very
--- same frame level: which of the two got the click was up to the client, and
--- on Classic Era it was the header. The cross gets a level of its own, and
--- closes the panel itself rather than trusting what the template does.
+-- same frame level: which of the two gets the click is up to the client. The
+-- cross gets a level of its own, and closes the panel itself rather than
+-- trusting what the template does.
 closeButton:SetFrameLevel(header:GetFrameLevel() + 10)
 closeButton:SetScript("OnClick", function() panel:Hide() end)
 
